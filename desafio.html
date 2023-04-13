@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  <main>
+    <div>
+
+      <h1>Vamos fazer uma escada?
+      </h1>
+
+      <form id="formulario">
+
+        <input id="input_numero" type="number" min="1" max="10" onchange="olhaNumero()">
+
+        <input id="input_btn" type="submit" value="desenhar">
+
+      </form>
+      <span id="desenho">
+      </span>
+
+    </div>
+  </main>
+
+</body>
+
+<script>
+
+
+  function olhaNumero() {
+
+    const numeroEscolhido = parseInt(document.getElementById(input_numero).value)
+    console.log(numeroEscolhido)
+
+  }
+
+  console.log(olhaNumero)
+
+// SAVE DOS DEUSES
+// const numeroInserido = 10;
+// let escada = "";
+
+// for (i = 0; i < numeroInserido; i++) {
+
+//   for (j = 0; j < numeroInserido; j++) {
+//     if (j >= numeroInserido - i - 1) {
+//       escada += "# ";
+//     }
+//     escada += "  ";
+//   }
+
+//   escada += "\n"
+
+// }
+
+// console.log(escada)
+
+
+</script>
+
+</html>
