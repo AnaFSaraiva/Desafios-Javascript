@@ -4,62 +4,22 @@
 
 <script>
 
-  // const numeroInserido = 14;
-  // var lista_numeros = [];
+  const numeroInserido = 5
+  const listaSomar = []
+  let contar = 1
 
-  // var resultado = '';
-  // var i = 0;
-  // do {
-  //   i += 1;
-  //   resultado += i + ' ';
-  // } while (i < numeroInserido);
+  function numerosAnteriores(numero) {
 
-  // lista_numeros.push(resultado)
+    for (i = 0; i < numero - 1; i++) {
+      if (i < numero - 1) {
+        listaSomar.push(console.log(contar++))
+      } else {
+        return
+      }
 
-  // console.log(lista_numeros)
-
-  // document.getElementById('exemplo').innerHTML = resultado;
-
-
-  // TENTANDO FAZR COM FOR
-  // for (i = 0; i < numeroInserido; i++) {
-
-  //   document.write(resultado += i);
-
-  //   lista_numeros.push(resultado)
-
-  // }
-
-
-
-
-  const numero = 8;
-  const quantidades = [];
-
-
-  for (i = 1; i <= numero; i++) {
-
-    document.write("ola")
-
-    for (i = 1; i <= numero - 1; i++) {
-
-      document.write(" - ");
-
-      // quantidades.push(tamanhos)
     }
-
-    // for (i = 1; ; i++) {
-
-    //   document.write("# ");
-    //   if (i === numero - i) break
-
-    //   // quantidades.push(tamanhos)
-    // }
-
-    document.write("<br>espaço")
-
 
   }
 
-
+  console.log(listaSomar)
 </script>
